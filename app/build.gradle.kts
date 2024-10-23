@@ -22,14 +22,7 @@ dependencies {
 
     implementation(platform("io.dropwizard:dropwizard-bom:4.0.9"))
     implementation("io.dropwizard:dropwizard-core")
-    implementation("io.dropwizard:dropwizard-jdbi3")
-    implementation("io.dropwizard:dropwizard-migrations")
-    implementation("io.dropwizard:dropwizard-views-freemarker")
-    implementation("io.dropwizard:dropwizard-assets")
-    implementation("io.dropwizard:dropwizard-client")
-    implementation("io.dropwizard:dropwizard-auth")
-    implementation("io.dropwizard:dropwizard-jackson")
-    implementation("io.dropwizard:dropwizard-testing")
+
 }
 
 testing {

@@ -1,28 +1,19 @@
 package org.example;
 
-import com.fasterxml.jackson.annotation.JsonInclude;
-import com.fasterxml.jackson.annotation.JsonProperty;
-
 import java.time.LocalDateTime;
 import java.util.List;
 import java.util.Map;
 
-@JsonInclude(JsonInclude.Include.NON_NULL) // To include non-null values only in JSON
 public class DemoDto {
 
-    @JsonProperty("id")
     private String id;
 
-    @JsonProperty("name")
     private String name;
 
-    @JsonProperty("created_at")
     private LocalDateTime createdAt;
 
-    @JsonProperty("tags")
     private List<String> tags;
 
-    @JsonProperty("attributes")
     private Map<String, Object> attributes;
 
     private boolean isActive;

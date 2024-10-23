@@ -1,7 +1,7 @@
 package org.example;
 
-import io.dropwizard.core.Configuration;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import io.dropwizard.core.Configuration;
 
 public class DemoConfiguration extends Configuration {
 
